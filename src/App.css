@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: #dad8d8; /* 282c34 */
+  min-height: 100vh;  
+  color: white;  
+  text-align: center;
+}
+
+/* Links */
+.link:link, .link:visited, .link:active {
+  color: #777;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #c4c0c0;
+  text-decoration: underline;
+}
+
+/* Search */
+.searchBox {
+  background-color: #282c34; 
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.searchBoxBottom {
+  background-color: #393f4b;  
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.searchStyle {
+  width: 100%;
+  padding-left: 0.5em;
+  outline: none;
+  border-radius: 0.4em;
+}
+
+/* App Container */
+.contentApp {
+  max-width: 50em;
+  margin: auto;
+}
+
+.weatherBoxStyleTop {
+  background-color: #30353f;
+  background-image: url(./images/ocean-doodle-bg.png); 
+  border-top-left-radius: 0.6em;
+  border-top-right-radius: 0.6em;
+  padding-bottom: 3em;
+}
+
+.weatherBoxStyleBottom { 
+  background-color: #2E5266FF;
+  background-image: linear-gradient(180deg, #30353f, #9FB1BCFF);
+  border-bottom-left-radius: 0.6em;
+  border-bottom-right-radius: 0.6em;
+}
+
+/* BEGIN Current Weather */
+.tempNumber {  
+  font-size: 3.5em;
+}
+
+.tempCelsius { 
+  font-size: 1.75em; 
+}
+
+.currentWeatherDescription {
+  text-transform: capitalize;
+}
+
+.infoLayout {
+  width: 100%;
+  padding-top: 0.5em; 
+  margin-bottom: 1.3em; 
+}
+
+.infoLayout2 { 
+  width: 100%;
+  display: inline-block;
+}
+
+.currentContainerLeft {
+  padding-top: 0.5em;
+}
+
+.currentContainerRight {
+  padding-top: 0.5em;
+}
+/* END Current Weather */
+
+/* BEGIN Forecast Weather */
+.forecastContainer {
+  padding-top: 5em; 
+  justify-content: center;
+  text-align: center;
+}
+
+.centerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tempMaxForecast {
+  font-size: 1.5em;
+}
+
+.tempMinForecast {
+  color: #bdbdbd;
+}
+/* END Forecast Weather */
+
+/* BEGIN Footer */
+.lineBox {
+  margin-top: 0.5em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  background: #3c4043;
+  height: 1px;
+  width: 100%;
+}
+
+.lineText {
+  margin-left: 1em;
+}
+
+.footerLineStyle { 
+  width: 30%;
+  margin: auto;
+  margin-top: 1em;
+  border-top: solid 1px #333;
+  box-shadow: #000 0 -1px 0;
+}
+
+.footer-style {
+  background-image: url(./images/bg-footer-noise.jpg);  
+  width: 100%;
+  margin-top: 3em;
+  padding: 2em;
+  padding-top: 2em;
+  border-top: 0.5em solid #393f4b;
+  color: #777;
+}
+/* END Footer */
