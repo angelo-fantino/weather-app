@@ -127,5 +127,5 @@ I am grateful for the indirect help in this project:
 ---
 
 <p align="justify">  
-    &#9827; 2022 - This application is free software: you can redistribute it or modify it for personal or commercial usage without restriction. This license has a limitation of liability and does not provide any warranty.    
+    2022 - This application is free software: you can redistribute it or modify it for personal or commercial usage without restriction. This license has a limitation of liability and does not provide any warranty.    
 </p>
