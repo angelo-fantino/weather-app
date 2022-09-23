@@ -79,7 +79,7 @@ git clone https://github.com/angelo-fantino/weather-app.git
 ```bash
 #You will head to the application's folder
 
-cd w-app
+cd weather-app
 ```
 
 3. Install the dependencies:
